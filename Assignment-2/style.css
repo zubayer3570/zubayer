@@ -13,7 +13,6 @@ body{
     margin: 50px 50px 100px 50px;
 }
 .section-1-grid-cell{
-
     padding-left: 50px;
 }
 .section-1-grid-cell h1{
@@ -95,7 +94,7 @@ body{
         margin: 0px 0px 0px 0px;
     }
     .section-1 img{
-        width: 80%;
+
     }
     .section-2{
         display: none;
