@@ -50,7 +50,6 @@ body{
 .section-2-container{
     display: flex;
     justify-content: center;
-    background-color: orange;
 }
 .section-2{
     display: grid;
