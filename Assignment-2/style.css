@@ -101,7 +101,13 @@ footer{
     padding-bottom: 20px;
 }
 
+.see-more{
+    color: #E02C6D;
+    margin-right: 100px;
+    text-align: end;
+}
 
+/* Pad */
 @media (max-width: 992px) {
     .section-2 img{
         width: 100%;
@@ -114,6 +120,8 @@ footer{
     }
 }
 
+
+/* mobile */
 @media only screen and (max-width: 688px) {
     .order-1{
         order: 2;
