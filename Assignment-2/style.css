@@ -59,7 +59,7 @@ body{
 }
 .section-2-grid-cell{
     padding: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0.2px 0.2px 5px grey;
     border-radius: 10px;
 }
 .pro-name{
@@ -102,7 +102,19 @@ footer{
 }
 
 
-@media (max-width: 688px) {
+@media (max-width: 992px) {
+    .section-2 img{
+        width: 100%;
+        padding: 0%;
+
+    }
+    .section-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 688px) {
     .order-1{
         order: 2;
     }
@@ -113,13 +125,20 @@ footer{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin: 0%;
-    }
-    .section-1-grid-cell img{
+    }  
+    .section-1 img{
         width: 100%;
-        padding-left: 0%;
+        padding: 0%;
+    }
+
+    .section-2 img{
+        width: 100%;
+        padding: 0%;
+
     }
     .section-2{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
