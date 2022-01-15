@@ -38,7 +38,6 @@ body{
 }
 
 
-
 .popular-collection-heading{
     text-align: center;
     font-size: 25px;
@@ -82,6 +81,66 @@ body{
     padding-left: 10px;
 }
 
+
+
+.see-more{
+    color: #E02C6D;
+    margin-right: 100px;
+    text-align: end;
+}
+.hover-section-container{
+    display: flex;
+    justify-content: center;
+}
+.hover-section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 40%;
+}
+.new-website{
+    position: relative;
+    top: 50px;
+    font-size: 50px;
+    margin: 0%;
+    padding: 0%;
+}
+.hover-section img{
+    position: relative;
+    top: 50px;
+    padding-left: 100px;
+    width: 40%;
+}
+.new-website-des-container{
+    width: 0%;
+    overflow: hidden;
+}
+.new-website-des{
+    margin: 0%;
+    padding: 0%;
+    width: 500px;
+    height: 200px;
+}
+.new-website-des a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #E02C6D;
+    border-radius: 25px;
+    margin-top: 15px;
+    color: white;
+    height: 30px;
+    width: 190px;
+}
+.fa-arrow-right{
+    padding-left: 10px;
+}
+.hover-section:hover .new-website-des-container{
+    width: 100%;
+    height: 216px;
+    transition: width 2s linear 0s;
+}
+
 footer{
     height: 200px;
     background-color: black;
@@ -89,9 +148,11 @@ footer{
     text-align: center;
 }
 .foot-inf-pro{
+    padding-left: 30px;
     padding-top: 30px;
     font-weight: 500;
     font-size: 20px;
+
 }
 .copy-right{
     margin: 0%;
@@ -100,15 +161,19 @@ footer{
 .font-as-icon{
     padding-bottom: 20px;
 }
-
-.see-more{
-    color: #E02C6D;
-    margin-right: 100px;
-    text-align: end;
+.font-as-icon i{
+    margin-left: 25px;
 }
+
 
 /* Pad */
 @media (max-width: 992px) {
+    .section-1{
+        padding-left: 0%;
+    }
+    .section-1 img{
+        width: 100%;
+    }
     .section-2 img{
         width: 100%;
         padding: 0%;
@@ -118,7 +183,12 @@ footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-}
+    
+    .hover-section:hover .new-website-des-container{
+        width: 155%;
+        transition: width 2s linear 0s;
+    }
+}   
 
 
 /* mobile */
@@ -147,6 +217,24 @@ footer{
     .section-2{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .hover-section img{
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .new-website-des-container{
+        height: 0px;
+        overflow: hidden;
+    }
+    .new-website-des{
+        width: 250px;
+        height: 320px;
+        overflow: visible;
+    }
+    .hover-section:hover .new-website-des-container{
+        width: 135%;
+        height: 320px;
+        transition: width 2s linear 0s;
     }
 }
 
