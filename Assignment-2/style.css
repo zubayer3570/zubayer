@@ -141,23 +141,26 @@ footer{
     text-align: center;
 }
 .foot-inf-pro{
-    padding-left: 30px;
+    text-align: center;
     padding-top: 30px;
     font-weight: 500;
     font-size: 20px;
 
 }
 .copy-right{
+    text-align: center;
     margin: 0%;
     color: grey;
 }
+
 .font-as-icon{
+    padding-right: 10px;
     padding-bottom: 20px;
     text-decoration: none;
 }
 .font-as-icon i{
-    margin-left: 25px;
     color: white;
+    padding-left: 5px;
 }
 
 
