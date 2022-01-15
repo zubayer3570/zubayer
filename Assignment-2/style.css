@@ -5,12 +5,12 @@ body{
     font-weight: 600;
 }
 .inf-pro{
-    margin-left: 100px;
+    margin-left: 130px;
 }
 .section-1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 50px 50px 100px 100px;
+    margin: 50px 10px 100px 120px;
 }
 .section-1-grid-cell h1{
     font-size: 50px;
@@ -24,7 +24,7 @@ body{
 }
 
 .section-1-grid-cell img{
-    padding-left: 100px;
+    padding-left: 110px;
 }
 
 
@@ -180,7 +180,7 @@ footer{
         width: 155%;
         transition: width 2s linear 0s;
     }
-}   
+}
 
 
 /* mobile */
@@ -191,7 +191,11 @@ footer{
     .order-2{
         order: 1;
     }
-    
+    .inf-pro{
+        padding: 20px 0px 0px 0px;
+        margin: 0%;
+        text-align: center;
+    }
     .section-1{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
