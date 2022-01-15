@@ -17,6 +17,7 @@ body{
 }
 .section-1-grid-cell a{
     display: inline-block;
+    text-decoration: none;
     padding: 8px 15px;
     border-radius: 30px;
     background-color: #E02C6D;
