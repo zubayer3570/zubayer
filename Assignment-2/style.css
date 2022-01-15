@@ -81,12 +81,14 @@ body{
     padding-left: 10px;
 }
 
-
-
 .see-more{
+    text-align: end;
+}
+
+.see-more a{
+    text-decoration: none;
     color: #E02C6D;
     margin-right: 100px;
-    text-align: end;
 }
 .hover-section-container{
     display: flex;
@@ -218,6 +220,7 @@ footer{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
     .hover-section img{
         padding-left: 0px;
         padding-top: 30px;
@@ -227,9 +230,8 @@ footer{
         overflow: hidden;
     }
     .new-website-des{
-        width: 250px;
+        width: 190px;
         height: 320px;
-        overflow: visible;
     }
     .hover-section:hover .new-website-des-container{
         width: 135%;
