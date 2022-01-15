@@ -153,9 +153,11 @@ footer{
 }
 .font-as-icon{
     padding-bottom: 20px;
+    text-decoration: none;
 }
 .font-as-icon i{
     margin-left: 25px;
+    color: white;
 }
 
 
