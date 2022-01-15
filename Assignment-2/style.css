@@ -10,9 +10,8 @@ body{
 .section-1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 50px 50px 100px 50px;
+    margin: 50px 50px 100px 100px;
 }
-
 .section-1-grid-cell h1{
     font-size: 50px;
 }
