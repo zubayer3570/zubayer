@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    padding: 0%s;
+    padding: 0%;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
@@ -82,21 +82,24 @@ body{
 }
 
 
-
-
-
-
-
 @media (max-width: 688px) {
+    .order-1{
+        order: 2;
+    }
+    .order-2{
+        order: 1;
+    }
     .section-1{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 0px 0px 0px 0px;
+        margin: 0%;
     }
-    .section-1 img{
-
+    .section-1-grid-cell img{
+        width: 100%;
+        padding-left: 0%;
     }
     .section-2{
-        display: none;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
