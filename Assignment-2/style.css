@@ -199,6 +199,7 @@ footer{
     } 
     .section-1-grid-cell{
         text-align: center;
+        margin: 0px 10px;
     } 
     .section-1 img{
         width: 100%;
