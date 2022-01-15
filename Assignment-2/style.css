@@ -12,25 +12,16 @@ body{
     grid-template-columns: repeat(2, 1fr);
     margin: 50px 50px 100px 50px;
 }
-.section-1-grid-cell{
-    padding-left: 50px;
-}
+
 .section-1-grid-cell h1{
     font-size: 50px;
 }
 .section-1-grid-cell a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 45px;
-    width: 200px;
+    display: inline-block;
+    padding: 8px 15px;
     border-radius: 30px;
     background-color: #E02C6D;
     color: white;
-}
-.section-1-grid-cell a i{
-    display: inline-block;
-    margin-left: 10px;
 }
 
 .section-1-grid-cell img{
@@ -201,11 +192,15 @@ footer{
     .order-2{
         order: 1;
     }
+    
     .section-1{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin: 0%;
-    }  
+    } 
+    .section-1-grid-cell{
+        text-align: center;
+    } 
     .section-1 img{
         width: 100%;
         padding: 0%;
@@ -219,6 +214,11 @@ footer{
     .section-2{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .see-more{
+        text-align: start;
+        margin-left: 35%;
     }
 
     .hover-section img{
