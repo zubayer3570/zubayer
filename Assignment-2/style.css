@@ -55,6 +55,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px 30px;
+    margin-bottom: 50px;
 }
 .section-2-grid-cell{
     padding: 15px;
@@ -79,6 +80,25 @@ body{
 }
 .rating span{
     padding-left: 10px;
+}
+
+footer{
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.foot-inf-pro{
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.copy-right{
+    margin: 0%;
+    color: grey;
+}
+.font-as-icon{
+    padding-bottom: 20px;
 }
 
 
